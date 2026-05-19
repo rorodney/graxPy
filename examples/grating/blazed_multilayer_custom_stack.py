@@ -31,7 +31,7 @@ oxygen = xrt_materials.Material("O", rho=1.14, table="Henke", name="O")
 # Periodic multilayer definition (Cr/C) from the built-in multilayer stack API.
 d_period_nm = 6.0
 gamma = 0.4
-n_bilayers = 50
+n_bilayers = 60
 
 multilayer_stack = rp.MultilayerStack(
     substrate_material=silicon,
